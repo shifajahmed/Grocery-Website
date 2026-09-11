@@ -16,19 +16,19 @@
   </head>
   <body>
     <header>
-      <nav class="grid grid-cols-3 gap-4 container mx-auto p-4">
+      <nav class="grid grid-cols-2 md:grid-cols-3 gap-4 container mx-auto p-4">
         <img
           src="/assets/nav-logo.png"
           alt="logo"
           srcset=""
           class="w-[120px] h-auto"
         />
-        <ul class="flex gap-4 items-center">
+        <ul class="hidden md:flex gap-4 items-center justify-center">
           <li><a href="">Product</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Contact us</a></li>
         </ul>
-        <div class="flex items-center gap-4">
+        <div class="hidden md:flex items-center gap-4">
           <span><i class="fa-solid fa-magnifying-glass"></i></span>
           <span><i class="fa-solid fa-cart-shopping"></i></span>
           <button
@@ -42,9 +42,12 @@
             Register
           </button>
         </div>
+        <span class="block md:hidden text-right"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
       </nav>
 
-      <section class="text-center py-[20px] cntainer mx-auto">
+      <section class="text-center py-[20px] container mx-auto">
         <div class="max-w-[40%] mx-auto">
           <h2 class="font-bold text-4xl mb-4">
             Freshness
@@ -62,7 +65,7 @@
         <img
           src="./assets/Hero Section 1.png"
           alt=""
-          class="mx-auto max-w-[820px]"
+          class="mx-auto max-w-[100%] md:max-w-[820px]"
         />
       </section>
     </header>
@@ -115,9 +118,9 @@
     <section class="container mx-auto my-[80px]">
       <h2 class="text-green-500 font-bold text-4xl mb-3">Popular Products</h2>
 
-      <div class="grid grid-cols-12">
+      <div class="grid grid-cols-12 gap-4">
         <div
-          class="col-span-3 p-6 space-y-2 bg-linear-to-br from-lime-500 bg-[url('./assets/mask group.png')] bg-no-repeat bg-bottom-right"
+          class="col-span-3 p-6 space-y-2 bg-linear-to-br from-lime-500 to to-lime-200 bg-[url('./assets/mask group.png')] bg-no-repeat bg-bottom-right"
         >
           <h2 class="font-semibold text-3xl">30% off</h2>
           <p>Discover a world of treats, toys, and essentials handpicked for</p>
@@ -129,11 +132,86 @@
           <img
             src="./assets/Mask group.png"
             alt=""
-            class="h-[320px] -mt[130px]"
+            class="h-[320px] -mt[180px]"
           />
         </div>
 
-        <div class="col-span-9"></div>
+        <div
+          class="col-span-9 grid grid-cols-3 gap-4"
+        >
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+          <div class="flex gap-2 p-4 rounded-md border border-gray-300">
+            <img src="./assets/onion.png" alt="" srcset="" />
+            <div class="space-y-2">
+              <span>4.5</span>
+              <h2 class="font-bold text-shadow-md">Onion</h2>
+              <p>$39.00</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>
